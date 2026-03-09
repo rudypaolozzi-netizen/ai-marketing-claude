@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+.DS_Store
+.venv
+__pycache__
+*.pyc
+MARKETING-REPORT*.pdf
