@@ -74,7 +74,7 @@ function App() {
     const [results, setResults] = useState<AnalysisResults | null>(null)
     const [error, setError] = useState<string | null>(null)
 
-    const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://ai-marketing-team.onrender.com'
+    const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://ai-marketing-api-t6xt.onrender.com'
 
     const handleAnalyze = async () => {
         if (!url) return
